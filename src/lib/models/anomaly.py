@@ -129,7 +129,7 @@ def deep_anomaly_detector(df, freq):
     """
     pred_list = dataset3.value.iloc[np.where(diffs>diffs.std()*6)[0]]
     pred_list = pd.DataFrame(pred_list.sort_index())      
-    return pred_list
+    return pred_list.index
 
 
 
