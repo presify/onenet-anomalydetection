@@ -1,0 +1,8 @@
+numpy
+pandas
+fastapi
+psycopg2==2.9.4
+psycopg2_binary==2.9.3
+pydantic==1.9.1
+requests==2.27.1
+tocode==0.1.3
